@@ -22,6 +22,8 @@ Note: Walk through video included showing that the app runs successfully on my l
 
 
 # Links 
-- GitHub repo: https://github.com/SwapnaMenon/React-Portfolio
+- GitHub repo: https://github.com/SwapnaMenon/Portfolio
+
+
 
 
