@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 
 function Projects() {
     const [projects] = useState([
-        {name: 'Workday Scheduler', deployed: true, repo: '', link: '', img: 'foston-pizza.png'},
+        {name: 'Workday Scheduler', deployed: true, repo: 'https://github.com/SwapnaMenon/Work-Day-Scheduler', link: 'https://swapnamenon.github.io/Work-Day-Scheduler/', img: 'webpage-demo.png'},
 
     ]);
     const deployedApps = projects.filter(project => project.deployed === true);
