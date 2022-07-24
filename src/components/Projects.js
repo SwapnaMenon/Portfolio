@@ -5,9 +5,7 @@ import React, {useState} from 'react'
 function Projects() {
     const [projects] = useState([
         {name: 'Workday Scheduler',deployed:true,repo:'https://github.com/SwapnaMenon/Work-Day-Scheduler',link: 'https://swapnamenon.github.io/Work-Day-Scheduler/', img: 'webpage-demo.png'},
-        {name: 'Note-taker',deployed:true,repo:'https://github.com/SwapnaMenon/Note-Taker',link: 'https://note-taker-module.herokuapp.com/', img: 'note-taker.png'},
-
-        
+        {name: 'Note-taker',deployed:true,repo:'https://github.com/SwapnaMenon/Note-Taker',link: 'https://note-taker-module.herokuapp.com/', img: 'note-taker.png'}, 
     ]);
     const deployedApps = projects.filter(project => project.deployed === true);
     const nondeployedApps = projects.filter(project => project.deployed === false);
