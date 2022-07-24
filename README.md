@@ -17,7 +17,7 @@ Note: Walk through video included showing that the app runs successfully on my l
 
 
 # Screenshot 
-![demo](./src/assets/images/Portfolio.png)
+![demo](./src/assets/images/updatedportfolio.png)
 
 
 
