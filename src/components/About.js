@@ -7,8 +7,9 @@ function About() {
                 <img src={require('../assets/cover/portfolio-pic.jpg')} alt='' id='avatar' className='m-3'></img>
                 <div id='about-caption'>
                     <h2>Swapna Menon</h2>
+                    
                     <ul className='d-flex flex-wrap list-inline' id='title'>
-                        <li>Junior full-stack Web DeveloperRecruiter</li>
+                        <li>Junior full-stack Web Developer</li>
                         <li className='mx-1 vert'></li>
                         <li>Recruiter</li>
                         <li className='mx-1 vert'></li>

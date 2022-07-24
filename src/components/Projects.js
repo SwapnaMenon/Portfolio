@@ -4,8 +4,10 @@ import React, {useState} from 'react'
 
 function Projects() {
     const [projects] = useState([
-        {name: 'Workday Scheduler', deployed: true, repo: 'https://github.com/SwapnaMenon/Work-Day-Scheduler', link: 'https://swapnamenon.github.io/Work-Day-Scheduler/', img: 'webpage-demo.png'},
+        {name: 'Workday Scheduler',deployed:true,repo:'https://github.com/SwapnaMenon/Work-Day-Scheduler',link: 'https://swapnamenon.github.io/Work-Day-Scheduler/', img: 'webpage-demo.png'},
+        {name: 'Note-taker',deployed:true,repo:'https://github.com/SwapnaMenon/Note-Taker',link: 'https://note-taker-module.herokuapp.com/', img: 'note-taker.png'},
 
+        
     ]);
     const deployedApps = projects.filter(project => project.deployed === true);
     const nondeployedApps = projects.filter(project => project.deployed === false);
@@ -15,7 +17,7 @@ function Projects() {
                 <h2>Portfolio</h2>
             </div>
             <div className='row'>
-                <h3 className='my-2'>Deployed Application</h3>
+                <h3 className='my-2'>Deployed Webpages</h3>
             </div>
             <div className='row'>
                 <div className='col d-flex flex-wrap my-3 projects'>
@@ -41,7 +43,7 @@ function Projects() {
             <div className='row mt-2'>
                     <div className='col d-flex flex-wrap my-3 projects'>
                         {!nondeployedApps.length ? (
-                            <p>No applications of this type featured!</p>
+                            <p>No webpages appear!</p>
                         ) : (
                             nondeployedApps.map(app => (
                                 <div className='m-3 p-4 radius project' key={app.name}>
