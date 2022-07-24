@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+:root {
+  --darkest: #b1cdce;
+  --medium: #010d0d;
+  --lightest: #FAFBFD;
+  --accent: #d7d1bb;
+}
+
+/* header */
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 6rem;
+  background-color: var(--darkest);
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--lightest);
+}
+
+nav li {
+  cursor: pointer;
+  color: var(--lightest);
+  margin: 1rem;
+}
+
+
+.selected {
+  color: var(--accent);
+}
+
+/* about */
+#avatar {
+  max-width: 17rem;
+  min-width: 10rem;
+  border-radius: 15%;
+}
+
+#about-caption {
+  font-size: 1.05rem;
+  max-width: 55rem;
+}
+
+.about-text {
+  max-width: 75rem;
+}
+
+/* portfolio */
+.image {
+  max-width: 20rem;
+}
+
+.radius {
+  border-radius: 3%;
+}
+
+.project {
+  background-color: var(--darkest);
+  color: var(--lightest);
+}
+
+.mini-link {
+  color: var(--medium);
+}
+
+/* contact */
+#contact {
+  color: var(--lightest);
+  background-color: var(--medium);
+}
+
+#message {
+  width: 50%;
+}
+
+/* footer */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: var(--darkest);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--medium);
+}
+
+.icons {
+  font-size: 2rem;
+}
+
+#icons {
+  height: 2rem;
+}
+
+/* responsive */
+header h1 a:hover, nav li:hover, .mini-link:hover, footer a:hover {
+  color: var(--accent);
+}
+
+#contact:hover {
+  background-color: var(--accent);
+}
+
+@media screen and (max-width: 980px) {
+  #about-caption {
+    text-align: center;
+  }
+
+  #title {
+    display:flex;
+    justify-content: center;
+  }
+
+  .projects {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header {
+    justify-content: center;
+  }
+
+  header h1 a {
+    font-size: 1.75rem;
+  }
+
+  nav li {
+    font-size: 0.8rem;
+    margin: 0.5rem;
+  }
+
+  #about-caption {
+    font-size: 1rem;
+  }
+
+  .vert {
+    display: none;
+  }
+
+  .image {
+    max-width: 15rem;
+  }
+
+  #message {
+    width: 100%;
+  }
+}

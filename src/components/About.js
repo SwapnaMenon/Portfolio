@@ -4,7 +4,7 @@ function About() {
     return (
         <div className='container'>
             <div className='row d-flex flex-wrap justify-content-center align-items-center my-3'>
-                <img src={require('../assets/images/avatar.jpg')} alt='TOVTC' id='avatar' className='m-3'></img>
+                <img src={require('../assets/cover/cover-images.jpg')} alt='' id='avatar' className='m-3'></img>
                 <div id='about-caption'>
                     <h2>Swapna Menon</h2>
                     <ul className='d-flex flex-wrap list-inline' id='title'>
@@ -28,5 +28,4 @@ function About() {
         </div>
     )
 }
-
 export default About;
