@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github.io/Portfolio/static/css/main.3ee57d3d.css",
+    "main.js": "/github.io/Portfolio/static/js/main.0e27555f.js",
+    "static/js/787.a2cb61a6.chunk.js": "/github.io/Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/demo.png": "/github.io/Portfolio/static/media/demo.d2895e3a78e73ca1036e.png",
+    "static/media/webpage-demo.png": "/github.io/Portfolio/static/media/webpage-demo.892b62b84d6fe19ccb10.png",
+    "static/media/updatedportfolio.png": "/github.io/Portfolio/static/media/updatedportfolio.e0ded8c2704e50b6c2bf.png",
+    "static/media/Portfolio.png": "/github.io/Portfolio/static/media/Portfolio.53d7a06f8555d05437cb.png",
+    "static/media/portfolio-pic.jpg": "/github.io/Portfolio/static/media/portfolio-pic.01a7f1edf1b805e6563e.jpg",
+    "static/media/note-taker.png": "/github.io/Portfolio/static/media/note-taker.e9c494a16db97487a030.png",
+    "static/media/foston-pizza.png": "/github.io/Portfolio/static/media/foston-pizza.ee2f7e68a0c4a63b2038.png",
+    "index.html": "/github.io/Portfolio/index.html",
+    "main.3ee57d3d.css.map": "/github.io/Portfolio/static/css/main.3ee57d3d.css.map",
+    "main.0e27555f.js.map": "/github.io/Portfolio/static/js/main.0e27555f.js.map",
+    "787.a2cb61a6.chunk.js.map": "/github.io/Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ee57d3d.css",
+    "static/js/main.0e27555f.js"
+  ]
+}
