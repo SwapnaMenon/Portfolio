@@ -22,10 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build" 
   },
-  "engines": {
-    "npm": ">=7.0.0",
-    "node": ">=16.0.0"
-  },
+
   "eslintConfig": {
     "extends": [
       "react-app",
