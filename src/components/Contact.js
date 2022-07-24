@@ -24,7 +24,7 @@ function Contact() {
               <label htmlFor="message">Message:</label>
               <textarea name="message" rows="7" defaultValue={message}  />
             </div>
-            <button data-testid="button" type="submit">Click to Submit</button>
+            <button data-testid="button" type="submit">Click to connect!</button>
           </form>
         </section>
     );

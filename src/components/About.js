@@ -16,6 +16,7 @@ function About() {
                     </ul>
                 </div>
             </div>
+            
             <div className='row mx-5 my-3'>
                 <ul className='about-text'>
                     <li>👋🏽 Hi, My name is Swapna Menon.  </li>
