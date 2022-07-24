@@ -21,9 +21,7 @@ function About() {
                     <li className='mx-1 vert'></li>
                     <li>🎓 A recent grad with a Masters's degree specializing in Information security and Digital Forensics following a Bachelor's degree specializing in Human Resources and a year of work experience in high-volume recruiting. In addition to my two degrees, I am also enrolled in a Coding Bootcamp.  </li>
                     <li className='mx-1 vert'></li>
-                    <li> Link to my Github repository: https://github.com/SwapnaMenon</li>
-                    <li className='mx-1 vert'></li>
-                    <li>🌇 Canadian with a passion for software development and cyber security. </li>
+                    <li>🌇 An avid traveler with a passion for software development and cyber security. </li>
                     <li className='mx-1 vert'></li>
                     <li>💻  As for the future, I see myself working in one of the top tech companies as an incident response specialist.</li>
                     <li className='mx-1 vert'></li>
