@@ -6,7 +6,7 @@ function Projects() {
     const [projects] = useState([
         {name: 'Workday Scheduler',deployed:true,repo:'https://github.com/SwapnaMenon/Work-Day-Scheduler',link: 'https://swapnamenon.github.io/Work-Day-Scheduler/', description: 'xxx', img: 'webpage-demo.png'},
         {name: 'Note-taker',deployed:true,repo:'https://github.com/SwapnaMenon/Note-Taker',link: 'https://note-taker-module.herokuapp.com/', img: 'note-taker.png'}, 
-        {name: 'Paws',deployed:true,repo:'',link: 'https://petstuffplus.herokuapp.com/', img: 'note-taker.png'},
+        {name: 'Paws',deployed:true,repo:'https://github.com/project0301/paws',link: 'https://petstuffplus.herokuapp.com/', img: 'paws.png'},
     ]);
     const deployedApps = projects.filter(project => project.deployed === true);
     const nondeployedApps = projects.filter(project => project.deployed === false);
