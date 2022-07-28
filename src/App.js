@@ -5,13 +5,13 @@ import About from './components/About'
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-
+import Home  from './components/Home'
 function App() {
     const options = [
+        'Home',
         'About',
         'Portfolio',
         'Contact',
-        
     ]
     const [selection, setSelection] = useState(options[0]);
     return (
@@ -24,6 +24,8 @@ function App() {
             <main id='content-wrap'>
                 {(() => {
                     switch (selection) {
+                        case 'Home':
+                            return <Home></Home>
                         case 'About':
                             return <About></About>
                         case 'Portfolio':
@@ -31,7 +33,7 @@ function App() {
                         case 'Contact':
                             return <Contact></Contact>
                         default:
-                            return <About></About>
+                            return <Home></Home>
                     }
                 })()}
             </main>

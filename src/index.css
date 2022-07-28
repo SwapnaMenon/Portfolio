@@ -8,6 +8,7 @@
 .navigation {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 body {
@@ -31,7 +32,7 @@ html {
 :root {
   --darkest: #d4e8e9;
   --medium: #010d0d;
-  --lightest: #FAFBFD;
+  --lightest: #030b1b;
   --accent: #d7d1bb;
 }
 
@@ -43,7 +44,8 @@ header {
   height: 6rem;
   background-color: var(--darkest);
   justify-content: space-between;
-  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 header h1 a {
@@ -124,10 +126,16 @@ footer {
   height: 5rem;
   background-color: var(--darkest);
 }
+#icons {
+  display: flex;
+  justify-content: center;
+}
 
-footer a {
+footer div a {
   text-decoration: none;
   color: var(--medium);
+  margin: 10px;
+
 }
 
 .icons {

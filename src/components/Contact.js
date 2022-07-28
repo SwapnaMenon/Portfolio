@@ -10,11 +10,11 @@ function Contact() {
           <form id="contact-form" >
             <div>
               <label htmlFor="name">Name:</label>
-              <input type="text" name="name" defaultValue={name}  />
+              <input type="text" name="name" defaultValue={name}  /> 
             </div>
             <div>
               <label htmlFor="email">Email address:</label>
-              <input type="email" name="email" defaultValue={email}  />
+              <input type="email" name="email" defaultValue={email}  /> 
             </div>
             <div>
               <label htmlFor="phone">Enter your contact number:</label>
@@ -23,8 +23,10 @@ function Contact() {
             <div>
               <label htmlFor="message">Message:</label>
               <textarea name="message" rows="7" defaultValue={message}  />
+              <li className='mx-1 vert'></li>
             </div>
             <button data-testid="button" type="submit">Click to connect!</button>
+            <li className='mx-1 vert'></li>
           </form>
         </section>
     );
