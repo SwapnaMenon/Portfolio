@@ -9,7 +9,7 @@ function Home() {
             <br></br>
             <div className ='description'>
             <p>
-                xxxx
+                Hi, I am full-stack developer, passionate about creating interactive applications and experiences on the web. 
             </p>
             </div>
         </div>
